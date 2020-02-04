@@ -1,4 +1,4 @@
-en-GB:
+en-CA:
   activerecord:
     attributes:
       spree/address:
@@ -154,6 +154,11 @@ en-GB:
         name: Name
     errors:
       models:
+        spree/rich_list_item:
+          attributes:
+            image:
+              not_allowed_content_type: has not allowed content type
+              attachment_must_be_present: must be present
         spree/calculator/tiered_flat_rate:
           attributes:
             base:
@@ -328,6 +333,9 @@ en-GB:
         one: '1 error prohibited with %{resource} from being saved:'
         other: "%{count} errors prohibited this %{resource} from being saved:"
   spree:
+    locales_displayed_on_translation_forms: Locales displayed on translation forms
+    no_translations_for_criteria: There are no translations for given criteria
+    store_translations: Store Translations
     filter: Filter
     quick_search: Quick Search . . .
     abbreviation: Abbreviation
@@ -679,7 +687,7 @@ en-GB:
       available_locales: Available Locales
       language: Language
       localization_settings: Localisation Settings
-      this_file_language: English (UK)
+      this_file_language: English (CA)
     icon: Icon
     identifier:
     image: Image
@@ -1336,3 +1344,20 @@ en-GB:
     zipcode: Post Code
     zone: Zone
     zones: Zones
+    add_common_description_item: 'Add Description'
+    add_product_categories: 'Add Product Common Descriptions'
+    btn_label: Button label
+    btn_link: Button link
+    common_description_items: 'Common description items'
+    common_description_name: 'Common Description Name'
+    common_descriptions: 'Common Descriptions'
+    complete_purchase: 'Complete Purchase'
+    cvv: 'CVV'
+    description: 'Description'
+    name: 'Name'
+    new_common_description: 'New Common Description'
+    new_rich_list_item: New Rich List Item
+    position: 'Position'
+    rich_list_items: Rich List Items
+    summary: 'Summary'
+    title: 'Title'

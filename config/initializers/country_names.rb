@@ -7,7 +7,7 @@ module I18n
         include Base, Flatten
 
         def available_locales
-          I18nData.languages.keys.map(&:to_sym)
+          ::Spree::Store.current.available_locales.map(&:to_sym)
         end
 
         def lookup(locale, key, scope = [], options = {})
